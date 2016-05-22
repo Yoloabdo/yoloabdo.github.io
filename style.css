@@ -322,7 +322,10 @@ img {
 /*=====================*/
 
 #header {
+    box-shadow: inset 0 1px 0 #eee;
+
     margin-bottom: 100px;
+
     border-bottom: 1px solid #eee;
 }
 
