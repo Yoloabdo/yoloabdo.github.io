@@ -1,0 +1,31 @@
+@media (max-width: 767px) {
+	.intro {
+		height: auto;
+		.intro-content {
+			h1 {
+				font-size: 36px;
+				line-height: 1.3em;
+			}
+			p {
+				font-size: 19px;
+			    line-height: 1.5em;
+			    padding-top: 20px;
+			}
+		}
+	}
+	footer {
+		.row {
+			display: block;
+		}
+		.text-center {
+			text-align: left;
+			margin: 20px 0;
+		}
+		.pull-right {
+			float: left!important;
+		}
+	}
+    .portfolio-screen-wrapper {
+    	display: none;
+    }
+}
