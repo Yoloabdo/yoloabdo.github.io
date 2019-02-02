@@ -1,4 +1,7 @@
 @media (max-width: 767px) {
+	section {
+		padding: 0;
+	}
 	.intro {
 		height: auto;
 		.intro-content {
@@ -36,10 +39,20 @@
         -moz-box-orient: vertical;
         box-orient: vertical;
 
+        &:last-child {
+        	margin-bottom: 0;
+        }
+
         .portfolio-screen-wrapper {
 	        -webkit-box-ordinal-group: 2;
 	        -moz-box-ordinal-group: 2;
 	        box-ordinal-group: 2;
+	    }
+	    .portfolio-img {
+	    	margin: 0!important;
+	    	img {
+	    		margin: 20px 0;
+	    	}
 	    }
     }
     .portfolio .portfolio-row.portfolio-nonImage .portfolio-desc {
