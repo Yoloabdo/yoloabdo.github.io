@@ -42,4 +42,10 @@
 	        box-ordinal-group: 2;
 	    }
     }
+    .portfolio .portfolio-row.portfolio-nonImage .portfolio-desc {
+	    min-height: auto;
+    }
+    .portfolio .portfolio-row.portfolio-nonImage .technologies ul {
+    	min-height: auto;
+    }
 }
