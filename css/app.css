@@ -195,6 +195,11 @@ body {
     transition: all 0.3s ease-in-out; }
     .portfolio .portfolio-row .portfolio-content .download img:hover {
       opacity: 1; }
+  .portfolio .portfolio-row.portfolio-nonImage .portfolio-desc {
+    min-height: 150px;
+    margin-bottom: 0 !important; }
+  .portfolio .portfolio-row.portfolio-nonImage .technologies ul {
+    min-height: 50px; }
 
 .work a {
   opacity: 0.7;
@@ -230,6 +235,9 @@ footer {
     align-items: center; }
 
 @media (max-width: 767px) {
+  section {
+    padding: 0; }
+
   .intro {
     height: auto; }
     .intro .intro-content h1 {
@@ -258,11 +266,26 @@ footer {
     -webkit-box-orient: vertical;
     -moz-box-orient: vertical;
     box-orient: vertical; }
+    .portfolio-row:last-child {
+      margin-bottom: 0; }
     .portfolio-row .portfolio-screen-wrapper {
       -webkit-box-ordinal-group: 2;
       -moz-box-ordinal-group: 2;
-      box-ordinal-group: 2; } }
+      box-ordinal-group: 2; }
+    .portfolio-row .portfolio-img {
+      margin: 0 !important; }
+      .portfolio-row .portfolio-img img {
+        margin: 20px 0; }
+
+  .portfolio .portfolio-row.portfolio-nonImage .portfolio-desc {
+    min-height: auto; }
+
+  .portfolio .portfolio-row.portfolio-nonImage .technologies ul {
+    min-height: auto; } }
 @media (max-width: 767px) {
+  section {
+    padding: 0; }
+
   .intro {
     height: auto; }
     .intro .intro-content h1 {
@@ -291,9 +314,21 @@ footer {
     -webkit-box-orient: vertical;
     -moz-box-orient: vertical;
     box-orient: vertical; }
+    .portfolio-row:last-child {
+      margin-bottom: 0; }
     .portfolio-row .portfolio-screen-wrapper {
       -webkit-box-ordinal-group: 2;
       -moz-box-ordinal-group: 2;
-      box-ordinal-group: 2; } }
+      box-ordinal-group: 2; }
+    .portfolio-row .portfolio-img {
+      margin: 0 !important; }
+      .portfolio-row .portfolio-img img {
+        margin: 20px 0; }
+
+  .portfolio .portfolio-row.portfolio-nonImage .portfolio-desc {
+    min-height: auto; }
+
+  .portfolio .portfolio-row.portfolio-nonImage .technologies ul {
+    min-height: auto; } }
 
 /*# sourceMappingURL=app.css.map */

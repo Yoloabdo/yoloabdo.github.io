@@ -183,11 +183,13 @@ body {
                 }
             }
             .technologies {
-                ul li {
-                    opacity: 0.7;
-                    transition: $transition;
-                    &:hover {
-                        opacity: 1;
+                ul {
+                    li {
+                        opacity: 0.7;
+                        transition: $transition;
+                        &:hover {
+                            opacity: 1;
+                        }
                     }
                 }
             }
@@ -198,6 +200,17 @@ body {
                     &:hover {
                         opacity: 1;
                     }
+                }
+            }
+        }
+        &.portfolio-nonImage {
+            .portfolio-desc {
+                min-height: 150px;
+                margin-bottom: 0!important;
+            }
+            .technologies {
+                ul {
+                    min-height: 50px;
                 }
             }
         }
