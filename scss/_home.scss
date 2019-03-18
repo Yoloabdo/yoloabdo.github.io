@@ -80,8 +80,14 @@ body {
     }
     .navbar-nav {
         & > li {
+            &:last-child {
+                & > a {
+                    padding-right: 0;
+                }
+            }
             & > a {
                 color: $blackColor!important;
+                padding: 10px 30px;
             }
         }
     }

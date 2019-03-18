@@ -1,0 +1,85 @@
+.dark {
+	background-color: #131313;
+	* {
+		color: #f1f1f1;
+	}
+	.highlighted {
+		color: $blueColor!important;
+	}
+	.navbar .navbar-nav > li > a {
+		color: #f1f1f1!important;
+	}
+
+	.intro {
+		.intro-content {
+			h2 {
+				margin-bottom: 30px;
+			}
+			.owl-carousel {
+				.item {
+					background-repeat: no-repeat;
+					background-size: cover;
+					min-height: 60vh;
+					width: 100%;
+					border-radius: 8px;
+				}
+				.owl-dots {
+					.owl-dot {
+						outline: none;
+						span {
+							background: #3980FD!important;
+							opacity: 0.4;
+						}
+						&.active {
+							span {
+								background: #3980FD!important;
+								opacity: 1;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.workshop {
+		.table {
+			background-color: #333;
+			margin-bottom: 40px;
+			thead>tr>th {
+				border-bottom: 1px solid #ddd;
+				padding: 15px;
+			}
+			tbody>tr:nth-of-type(odd) {
+				background-color: rgba(119, 119, 119, 0.23);
+			}
+			tbody>tr>td {
+				border: none;
+			}
+			tbody>tr>td, tbody>tr>th {
+				padding: 15px;
+			}
+		}
+		.workshop-details {
+			.row {
+				display: -webkit-box;
+			  display: -webkit-flex;
+			  display: -ms-flexbox;
+			  display: flex;
+			  flex-wrap: wrap;
+			}
+			.row > [class*='col-'] {
+			  display: flex;
+			  flex-direction: column;
+			}
+			p {
+				font-size: 16px;
+				color: $blueColor;
+			}
+		}
+		.workshop-apply {
+			margin-top: 20px;
+			// text-align: center;
+		}
+	}
+}

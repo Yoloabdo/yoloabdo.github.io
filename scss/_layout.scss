@@ -20,6 +20,9 @@ section {
 		vertical-align: middle;
 	}
 }
+.highlighted {
+	color: $blueColor;
+}
 a {
 	transition: all 0.3s ease-in-out;
 	color: $blackColor;
@@ -52,6 +55,18 @@ a {
 				width: 100%;
 			}
 		}
+	}
+}
+.btn {
+	&.btn-blue {
+		background: #3980FD;
+	    font-size: 21px;
+	    padding: 15px 50px;
+
+	    &:hover {
+	    	background-color: rgba(57, 128, 253, 0.72);
+	    	color: $whiteColor;
+	    }
 	}
 }
 ul {
