@@ -66,6 +66,9 @@ ul {
     color: #3980FD;
     font-size: 45px; }
 
+.section-desc {
+  margin-bottom: 40px; }
+
 /**
  * Mixins
  */
@@ -272,6 +275,10 @@ footer {
     .dark .intro .intro-content .owl-carousel .owl-dots .owl-dot.active span {
       background: #3980FD !important;
       opacity: 1; }
+  .dark .workshop .section-title {
+    margin-bottom: 10px; }
+  .dark .workshop .section-desc {
+    margin-bottom: 30px; }
   .dark .workshop .table {
     background-color: #333;
     margin-bottom: 40px; }
